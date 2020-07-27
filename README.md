@@ -178,7 +178,7 @@ _В XML документах фрагмент, помещенный внутрь
 |trigger_settings_tag_graph_period|Значение тэга 'ZNTSettings' при котором будет задан период за какой присылать изображение графика. Указывается после разделителя ```=``` в секундах.</br>Приоритет: tag, xml, config*|'period='|
 
 <details><summary>Пример:</summary>
-  <img src="https://i.imgur.com/vKQWZ7V.png" alt="Kitten"	title="A cute kitten" width="100%"/>
+  <img src="https://github.com/xxsokolov/Zabbix-Notification-Telegram/blob/dev/docs/images/trigger_tags.png" alt="docs/images/trigger_tags.pn"	title="Zabbix-Notification-Telegram: trigger tags" width="100%"/>
 </details>
 
 
