@@ -50,7 +50,7 @@ $ git clone https://github.com/xxsokolov/Zabbix-Notification-Telegram.git .
 ### Получаем API token
 Получили <a href="https://core.telegram.org/bots#botfather" target="_blank">API token от @BotFather</a> который будем использовать в <a href="https://github.com/xxsokolov/Zabbix-Notification-Telegram/blob/master/zbxTelegram_config.example.py" target="_blank">zbxTelegram_config.py</a>: <a href="https://github.com/xxsokolov/Zabbix-Notification-Telegram/blob/master/zbxTelegram_config.example.py#L19" target="_blank">tg_token</a>.
 
-*Если у Вас нет бота, я расскажу как это сделать:* <a href=">https://github.com/xxsokolov/Zabbix-Notification-Telegram/wiki/Регистрация-нового-бота-в-Telegram" target="_blank">RU</a>, ENG (vacant)
+*Если у Вас нет бота, я расскажу как это сделать:* <a href="https://github.com/xxsokolov/Zabbix-Notification-Telegram/wiki/Регистрация-нового-бота-в-Telegram" target="_blank">RU</a>, ENG (vacant)
 
 ## Настраиваем нотификатор
 ### Конфигурационный файл
@@ -361,7 +361,7 @@ _В XML документах фрагмент, помещенный внутрь
 |trigger_settings_tag_graph_stacked||'graph_stacked'|
 |trigger_settings_tag_graph_pie||'graph_pie'|
 |trigger_settings_tag_graph_exploded||'graph_exploded'|
-|trigger_settings_tag_graph_period|Значение тэга 'ZNTSettings' при котором будет задан период за какой присылать изображение графика. Указывается после разделителя ```=``` в секундах.<br>Приоритет: tag, xml, config*|'period='|
+|trigger_settings_tag_graph_period|Значение тэга 'ZNTSettings' при котором будет задан период за какой присылать изображение графика. Указывается после разделителя ```=``` в секундах.<br>*Приоритет: tag, xml, config*|'period='|
 
 <details><summary>Пример:</summary>
   <img src="https://i.imgur.com/vKQWZ7V.png" alt="Kitten"	title="A cute kitten" width="100%"/>
